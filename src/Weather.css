@@ -50,9 +50,22 @@
   font-weight: 400;
   position: relative;
   line-height: 1;
-  top: -32px;
+  top: -26px;
 }
 
 .detail {
   display: flex;
+}
+
+.unit a:hover {
+  color: rgb(37, 68, 125);
+  font-size: larger;
+}
+.unit a {
+  color: #0a6efd;
+  text-decoration: none;
+}
+
+.main_unit {
+  font-size: larger;
 }
