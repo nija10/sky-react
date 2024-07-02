@@ -70,3 +70,22 @@
 .main_unit {
   font-size: larger;
 }
+
+.loc-btn {
+  padding: 5px;
+}
+
+.btn-primary {
+  margin: 0;
+  padding: 12px;
+}
+
+.search-btn {
+  margin: 0;
+}
+
+.col {
+  padding-left: 10px !important;
+  padding-right: 2px !important;
+  margin: 0;
+}
