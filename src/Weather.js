@@ -3,6 +3,7 @@ import axios from "axios";
 import React, { useState } from "react";
 import WeatherInfo from "./WeatherInfo";
 import WeatherForecast from "./WeatherForecast";
+import Location from "./Location";
 
 export default function Weather(props) {
   // const [ready, setReady] = useState(false);
@@ -61,6 +62,7 @@ export default function Weather(props) {
                 className="btn btn-primary w-100"
               />
             </div>
+            <Location />
           </div>
         </form>
         <WeatherInfo data={weatherData} />
